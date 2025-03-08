@@ -1,0 +1,90 @@
+*{
+    margin: none;
+    padding: none;
+    border: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(252, 183, 103, 0.927);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#container-text{
+    margin: 1vw;
+    font-size: 2vw;
+}
+
+.convertor-container{
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+    margin: 1.5vw;
+}
+
+.convertor-buttons{
+    display: flex;
+}
+
+select{
+    font-size: 1.7vw;
+}
+
+.amount-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#amount-title{
+    font-size: 1.5vw;
+}
+
+#currency-symbol{
+    font-size: 1.5vw;
+    margin: 1vw 0 1vw 1vw;
+}
+
+input[type=number]{
+    width: 10vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 1.5vw;
+}
+
+input[type=number]:focus{
+    outline: none;
+}
+
+.convert-button{
+    margin: 15px;
+    background-color: rgb(254, 106, 0);
+    color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 7vw;
+    font-size: 1.5vw;
+}
+
+.convert-button:hover{
+    background-color: rgba(252, 183, 103, 0.927);
+    color: black;
+}
+#exchange-rate{
+    font-size: 1.2vw;
+    margin: 0px 20px 20px 20px;
+}
