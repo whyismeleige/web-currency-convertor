@@ -40,7 +40,7 @@ body{
 }
 
 select{
-    font-size: 1.7vw;
+    font-size: 1.5vw;
 }
 
 .amount-button{
@@ -84,7 +84,13 @@ input[type=number]:focus{
     background-color: rgba(252, 183, 103, 0.927);
     color: black;
 }
+
 #exchange-rate{
     font-size: 1.2vw;
     margin: 0px 20px 20px 20px;
+}
+
+#final-amount{
+    font-size: 1.5vw;
+    margin: 20px 20px 20px 20px;
 }

@@ -13,15 +13,15 @@
         <div class="convertor-container">
             <div class="convertor-buttons" id="from-button">
                 <img src="https://flagsapi.com/US/flat/64.png" class="flags" id="from-flag">
-                <select name="to" class="dropdown">
-                    <option value="US">USD</option>
+                <select name="from" class="dropdown" id="from">
+                    <option value="USD">USD</option>
                 </select>
             </div>
-            <i class="fa-solid fa-right-left" style="font-size: 3vw; margin-top: 0.7vw;"></i>
+            <i class="fa-solid fa-right-left" id = "icon" style="font-size: 3vw; margin-top: 0.7vw;"></i>
             <div class="convertor-buttons" id="to-button">
                 <img src="https://flagsapi.com/IN/flat/64.png" class="flags" id="to-flag">
-                <select name="to" class="dropdown">
-                    <option value="IN">INR</option>
+                <select name="to" class="dropdown" id="to">
+                    <option value="INR">INR</option>
                 </select>
             </div>
         </div>
@@ -32,6 +32,7 @@
                 <input placeholder="Enter Amount" type="number">
             </div>
         </div>
+        <span id="final-amount"></span>
         <button class="convert-button" >Convert</button>
         <span id="exchange-rate">1 USD = 87 INR</span>
     </div>
